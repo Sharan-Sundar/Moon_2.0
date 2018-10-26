@@ -1,6 +1,6 @@
 ---
-layout: publications_list
-title: All Publications
+layout: publications-list
+title: Publications
 excerpt: "A List of Publications"
 comments: false
 ---
