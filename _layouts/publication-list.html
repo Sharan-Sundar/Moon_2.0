@@ -23,7 +23,7 @@ layout: compress
                 </div>
                 <div class="post-list">
                     {% for publication in site.publications %} 
-                        {% if publication.project == null %}
+                        {% if publication.project != null %}
                     <ul>
                         <li class="wow fadeInLeft" data-wow-duration="1.5s">
                             <a class="zoombtn" href="{{ site.url }}{{ publication.url }}">{{ publication.title }}</a>
