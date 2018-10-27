@@ -1,5 +1,5 @@
 ---
-layout: publications-list
+layout: publication-list
 title: Publications
 excerpt: "A List of Publications"
 comments: false
