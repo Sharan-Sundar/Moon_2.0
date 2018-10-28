@@ -3,8 +3,8 @@ layout: post
 title:  "Moon Jekyll Theme 1"
 date:   2016-04-06
 excerpt: "Minimal, one column Jekyll theme for your blog."
-project: true
-publication: true
+project: false
+publication: false
 tag:
 - jekyll 
 - moon
