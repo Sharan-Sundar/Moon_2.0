@@ -14,35 +14,35 @@ layout: compress
     {% include nav.html %}
     <!-- Header -->
     <header class="header flex" role="banner" >
-        <div class="container animated fadeIn" style="background-color:rgba(0,0,0,0);">
+        <div class="container animated fadeIn" style="background-color:rgba(0,0,0,0.1);">
             <div class="row">
                     <a href="{{ site.url }}">
                         <img src="{{ site.logo }}" class="img-circle zoombtn animated rotateIn">
                     </a>
                     <h3 class="title">
-                        <a class="zoombtn" href="{{ site.url }}">
-                        	<p style="font-size:1.2rem;font-weight:300">{{ site.title }}</p>
+                        <a class="zoombtn" href="{{ site.url }}" >
+                            <p style="font-size:1.2rem;font-weight:300;color:white"><b>{{ site.title }}</b></p>
 			            </a>
                     </h3>
                     <hr class="hr-line">
                     <h3 class="title">
                         <a href="{{ site.url }}">
-                        	<p style="font-size:1rem;font-weight:300">{{ site.bio }}</p>
+                            <p style="font-size:1rem;font-weight:300;color:white"><b>{{ site.bio }}</b></p>
 			            </a>
                     </h3>
                     {% include social-links.html %}
                   <hr class="hr-line">
                   <h3 class="title">
-                         <a class="btn zoombtn" href="{{ site.url }}/resume">
-                         Abouta
+                         <a class="btn zoombtn" href="{{ site.url }}/resume" style="background-color:rgba(0,0,0,0.1);">
+                         About
                          </a>
-                         <a class="btn zoombtn"  href="{{ site.url }}/projects">
-                         Projects
+                         <a class="btn zoombtn"  href="{{ site.url }}/projects" style="background-color:rgba(0,0,0,0.1);">
+                         Projectss
                          </a>
-                         <a class="btn zoombtn"  href="{{ site.url }}/publications">
+                         <a class="btn zoombtn"  href="{{ site.url }}/publications" style="background-color:rgba(0,0,0,0.1);">
                          Publications
                          </a>
-                         <a class="btn zoombtn"  href="{{ site.url }}/postss">
+                         <a class="btn zoombtn"  href="{{ site.url }}/postss" style="background-color:rgba(0,0,0,0.1);">
                          Blog
                          </a>
                  </h3>
