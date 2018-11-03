@@ -25,10 +25,10 @@ layout: compress
                     {% for post in site.posts %} 
                         {% if post.project %}
                     <ul>
-                        <li class="wow fadeInLeft" data-wow-duration="1.5s" style="background-color:rgba(255,255,255,0.5);">
+                        <li class="wow fadeInLeft" data-wow-duration="1.5s" style="background-color:rgba(255,255,255,0.7);">
                             <a class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
                             <p>{{ post.excerpt }}</p>
-                            <a href="{{ site.url }}{{ post.url }}" class="btn zoombtn" style="background-color:rgba(0,0,0,0);color:white;">Read More</a>
+                            <a href="{{ site.url }}{{ post.url }}" class="btn zoombtn" style="background-color:rgba(255,255,255,0.8);">Read More</a>
                         </li>
                     </ul>
                       {% endif %}
